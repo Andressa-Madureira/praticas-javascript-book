@@ -3,4 +3,5 @@ const taxaDeServico = 0.10 // calcula a porcentagem de 10% referente a taxa de s
 const valorGarcom = Number(valorParcial) * Number(taxaDeServico)
 const valorTotal = Number(valorParcial) + Number(valorGarcom)
 
-alert(`O valor total a ser pago é: ${valorTotal.toFixed(2)}`)
+alert(`\nTaxa do garçom: ${valorGarcom.toFixed(2)}
+O valor total a ser pago é: ${valorTotal.toFixed(2)}`)
