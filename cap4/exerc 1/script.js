@@ -16,7 +16,7 @@ frm.addEventListener("submit", (e) => {
 
     } else if (media >= 4) {
         resp1.innerText = `Média das Notas: ${media}`
-        resp2.innerText = `Atenção, ${aluno}! Você está em exame!`
+        resp2.innerText = `Atenção, ${aluno}! Você está de recuperação!`
         resp2.style.color = "green"
     } else {
         resp1.innerText = `Média das Notas: ${media}`
