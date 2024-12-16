@@ -30,3 +30,7 @@ frm.addEventListener("submit", (e)=>{
 
     e.preventDefault()
 })
+
+frm.addEventListener("reset", (e)=>{ 
+    resp1.innerText = ""// limpa o conteúdo do elemento h3 que exibe a resposta
+})
