@@ -1,1 +1,0 @@
-const bairro = prompt("Bairro de Entrega:")
