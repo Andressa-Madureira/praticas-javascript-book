@@ -1,5 +1,5 @@
 # praticas-javascript-book
-#Exercícios - Lógica de Programação e Algoritmos com JavaScript
+Exercícios - Lógica de Programação e Algoritmos com JavaScript
 
 Este repositório contém os exercícios resolvidos do livro "Lógica de Programação e Algoritmos com JavaScript" de Edécio Fernando. Ele foi criado para documentar meu progresso e aprendizado em lógica de programação e na linguagem JavaScript.
 
