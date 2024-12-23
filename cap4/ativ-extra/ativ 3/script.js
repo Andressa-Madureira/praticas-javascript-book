@@ -6,18 +6,24 @@ frm.addEventListener("submit", (e)=>{
 
     const valor = Number(frm.inValor.value)
 
+    const pagar = Number(frm.inPagar.value)
+
+
+
     const valorMin = 1
-    const trocoMin = Number(valor - valorMin)
+    const trocoMin = Number(pagar - valorMin)
 
     const valorMed = 1.75
-    const trocoMed = Number(valor - valorMed)
+    const trocoMed = Number(pagar - valorMed)
 
     const valorMax = 3
-    const trocoMax = Number (valor - valorMax)
+    const trocoMax = Number (pagar - valorMax)
     
     const timeMin = 30
     const timeMed = 60
     const timeMax = 120
+
+    
 
      
 
