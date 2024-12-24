@@ -8,8 +8,6 @@ frm.addEventListener("submit", (e)=>{
 
     const pagar = Number(frm.inPagar.value)
 
-
-
     const valorMin = 1
     const trocoMin = Number(pagar - valorMin)
 
@@ -22,10 +20,6 @@ frm.addEventListener("submit", (e)=>{
     const timeMin = 30
     const timeMed = 60
     const timeMax = 120
-
-    
-
-     
 
     if(valor < valorMin){
         alert("Valor insuficiente")
@@ -47,17 +41,3 @@ frm.addEventListener("submit", (e)=>{
     e.preventDefault()
     
 })
-
-/*
-
- const valor = Number(frm.inValor.value)
-
-    const valorMin = 1
-    const timeMin = 30 
-    
-    const valorMed = Number(valorMin + 0.75)
-    const timeMed = Number(timeMin * 2)
-
-    const valorMax = Number(valorMin * 3)
-    const timeMax = Number(timeMin * 4)
-*/
