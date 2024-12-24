@@ -24,7 +24,7 @@ frm.addEventListener("submit", (e)=>{
     if(valor < valorMin){
         alert("Valor insuficiente")
     }else if(valor > valorMax ){
-        alert("O valor máximo de permanência é de 120 min")
+        alert("O valor máximo de permanência é de 120 min") 
     }else if(valor >= valorMin && valor < valorMed){
         resp1.innerHTML = `Tempo: ${timeMin} min`
         resp2.innerHTML = `Troco: R$ ${trocoMin.toFixed(2)}`
