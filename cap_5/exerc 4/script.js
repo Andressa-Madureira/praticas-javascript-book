@@ -4,7 +4,7 @@ do{
     const num = Number(prompt("Digite um número: "))
 
     if(num == 0 || isNaN(num)){
-        const sair = confirm("Confirmar saída?")
+        const sair = confirm("Confirmar saída?") //exibe caixa de diálogo com Ok(true) e Cancelar(false)
         if(sair){
             break //sair da repetição 
         }else{
