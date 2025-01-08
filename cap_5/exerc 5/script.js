@@ -11,10 +11,17 @@ frm.addEventListener("submit", (e)=>{
     e.preventDefault()
 
     const descricao = frm.inDescricao.value
-    const pagar = Number(frm.inPagar.value)
+    const valor = Number(frm.inPagar.value)
 
 
-    numContas++ //adiciona valores ao contador e acumulador
-    valTotal += pagar
-    resposta = `${resposta}${descricao}  - R$: ${pagar.toFixed(2)}`
+    numContas++
+    valTotal += valor
+    //resposta = `${resposta}${descricao} - R$: ${valor.toFixed(2)} \n`
+    resposta = resposta + descricao + " - R$: " + valor.toFixed(2) + "\n"
+    resp1.innerText = `${resposta} ----------------------------------------`
+    resp2.innerText = `${numContas} Conta(s) - Total R$: ${valTotal.toFixed(2)}`
+
+    frm.inDescricao.value = ""
+    frm.inValor.value = ""
+    frm.inDescricao.focus()
 })
